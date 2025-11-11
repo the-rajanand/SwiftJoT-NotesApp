@@ -32,7 +32,42 @@ The application is structured around a clear High-Level Design (HLD) and Low-Lev
 
 ---
 
-## 🚀 Future Scope
+## 🚀 Getting Started
+
+Follow these steps to clone and run the SwiftJoT application on your development machine using **Android Studio**.
+
+### Prerequisites
+
+* **Android Studio:** The latest stable version installed.
+* **Git:** Installed on your system.
+* An **Android Device or Emulator** to run the application.
+
+### Setup Instructions
+
+1.  **Clone the Repository**
+    Open your terminal or command prompt and clone the project files:
+    ```bash
+    git clone [https://github.com/the-rajanand/SwiftJoT-NotesApp.git](https://github.com/the-rajanand/SwiftJoT-NotesApp.git)
+    cd SwiftJoT-NotesApp
+    ```
+
+2.  **Open in Android Studio**
+    * Launch **Android Studio**.
+    * Select **"Open an existing Android Studio project"** (or use `File > Open...`).
+    * Navigate to the directory where you cloned the repository (`SwiftJoT-NotesApp`) and select the project folder.
+
+3.  **Sync Gradle**
+    * Android Studio will automatically detect the Gradle files and prompt you to **sync the project**. Allow the sync to complete to download all necessary dependencies.
+    * *(Note: If the sync fails, check the Android SDK version settings in your `build.gradle` file against your installed SDKs.)*
+
+4.  **Run the Application**
+    * Select your target device from the dropdown menu (either a physical device connected via USB or an AVD emulator).
+    * Click the **"Run"** button (green play icon) in the toolbar.
+    * Android Studio will build and install the SwiftJoT app on your selected device/emulator.
+
+---
+
+## 🔬 Future Scope
 
 Future developments planned for SwiftJoT include:
 
